@@ -2,6 +2,9 @@
 #include "Utilities.H"
 #include "faceTriangulation.H"
 #include "cellSet.H"
+#ifdef __APPLE__
+#include <map>
+#endif
 
 
 using namespace Foam;

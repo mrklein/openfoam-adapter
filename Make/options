@@ -22,5 +22,4 @@ LIB_LIBS = \
     -lcompressibleTurbulenceModels \
     -lincompressibleTurbulenceModels \
     -limmiscibleIncompressibleTwoPhaseMixture \
-    $(ADAPTER_PKG_CONFIG_LIBS) \
-    -lprecice
+    $(ADAPTER_PKG_CONFIG_LIBS)
